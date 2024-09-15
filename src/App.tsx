@@ -135,10 +135,7 @@ function App() {
     selectedIdsForCurrentPage.includes(item.id)
   );
 
-  const totalSelectedItems = Object.values(selectedItemIds).reduce(
-    (acc, ids) => acc + ids.length,
-    0
-  );
+
 
   const headerWithIcon = (
     <>
