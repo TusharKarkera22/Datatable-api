@@ -176,7 +176,7 @@ function App() {
 
   return (
     <>
-      <div>{totalSelectedItems} items selected</div>
+      
       <DataTable
         value={apiData}
         selection={selectedApiData}
